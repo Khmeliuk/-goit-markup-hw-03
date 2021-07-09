@@ -19,7 +19,7 @@
 body {
   font-family: roboto, sans-serif;
   color: var(--main-color);
-  background-color: var(-);
+  background-color: var(--banner-color);
 }
 h1,
 h2,
