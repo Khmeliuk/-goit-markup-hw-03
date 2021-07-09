@@ -192,7 +192,7 @@ ul {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 50px;
+
   /* padding-top: 94px; */
 }
 
@@ -239,7 +239,9 @@ ul {
 .whotwedo-list .we-do + .we-do {
   margin-left: 30px;
 }
+
 /* our team */
+
 .ourtaem-section {
   background-color: var(--our-team-bg);
 }
@@ -248,6 +250,7 @@ ul {
 }
 .team-item {
   flex-basis: calc((100 / 4)-30px);
+  background-color: var(--banner-color);
 }
 .our-team-list .team-item + .team-item {
   margin-left: 30px;
@@ -269,10 +272,13 @@ ul {
   text-align: center;
   /* padding-bottom: 124px; */
 }
+
 /* footer */
+
 .footer-logo {
   display: block;
   margin: 0px 0 20px 0;
+
   /* padding-top: 60px; */
 }
 .address {
@@ -376,13 +382,6 @@ ul {
   border: 10px #000000;
 }
 
-/* border: 1px solid var(--border-solid-secondary); */
-/* }
-.cards:not(:nth-child(3n)){
-  margin-right: 30px;
-  
- .
-} */
 .spec-card > .cards {
   flex-basis: calc((100 / 3)-30px);
   margin-left: 30px;
