@@ -151,12 +151,19 @@ ul {
 .banner-section {
   color: var(--banner-color);
   font-weight: 900;
+
+  padding-top: 200px;
+
+  margin-bottom: 30px;
+}
+.banner-title {
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  padding-top: 200px;
+
+  color: var(--banner-color);
 
   margin-bottom: 30px;
 }
@@ -192,7 +199,7 @@ ul {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-
+  margin-bottom: 50px;
   /* padding-top: 94px; */
 }
 
